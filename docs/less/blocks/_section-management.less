@@ -1,0 +1,135 @@
+.section-management {
+    padding: 70px 0 44px;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    text-align: center;
+
+    &::before {
+        content: "";
+        display: block;
+        width: 102px;
+        height: 102px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -71%) rotate(45deg);
+        background-color: #a4eecb;  
+        }
+
+    @media (min-width: 768px) {
+        padding: 113px 0 42px;
+        text-align: start;
+        
+        &::before {
+        display: none;
+        }
+    }
+    @media (min-width: 1200px) {
+        padding: 91px 0 70px;
+        position: relative;
+        
+    &::before {
+        content: "";
+        display: block;
+        width: 187px;
+        height: 187px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(-56%, -60%) rotate(45deg);
+        background-color: #a4eecb;  
+        }
+    }
+}
+.section-management_row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 20px 0 38px;
+    }
+    @media (min-width: 1200px) {
+        padding: 0 157px 0 97px;
+    }
+  
+}
+
+
+  
+.section-management_row p {
+    line-height: 1.7;
+
+    @media (min-width: 768px) {
+        line-height: 2.143;
+        
+    }
+    @media (min-width: 1200px) {
+        line-height: 2.2;
+    }
+}
+.section-management_row .section-column {
+    padding: 0;
+    width: 300px;
+    margin-bottom: 57px;
+
+    @media (min-width: 520px) {
+        width: 520px;
+    }
+    
+    @media (min-width: 768px) {
+        margin-bottom: 0;
+        padding-bottom: 72px;
+        width: 382px;
+      order: 2;
+    }
+    @media (min-width: 1200px) {
+        order: 1;
+        padding-bottom: 0;
+        width: 470px;
+    }
+}
+.section-management__header {
+   margin-bottom: 36px;
+
+    @media (min-width: 768px) {
+        margin-bottom: 17px;
+    }
+    @media (min-width: 1200px) {
+        margin-bottom: 46px;
+       
+    }
+}
+
+
+.section-management-img {
+        width: 200px;
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        @media (min-width: 520px) {
+            width: 268px;
+        }
+
+    @media (min-width: 768px) {
+        order: 1;
+  
+    }
+    @media (min-width: 1200px) {
+        order: 2;
+        width: auto;
+    }
+}
+.section-management_row .section-heading {
+    margin-bottom: 28px;
+
+    @media (min-width: 768px) {
+      margin-bottom: 29px;
+    }
+    @media (min-width: 1200px) {
+        margin-bottom: 31px;
+    }
+}

@@ -1,0 +1,39 @@
+.section-price {
+    position: relative;
+    padding: 102px 0 93px;
+    background-color: rgb(95, 86, 86);
+    background-image: url(../image/bcg-img-price/bcg-img-price.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+.section-price__cell-header h3, .section-price__cell-title h2 > {
+    color: white;
+}
+
+.section-price__cell-header {
+    margin-bottom: 75px;
+    text-align: center;
+}
+.section-price__cell-title .section-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+.section-price__cell-title {
+    margin-bottom: 68px;
+}
+.container-relative {
+    position: relative;
+    z-index: 3;
+}

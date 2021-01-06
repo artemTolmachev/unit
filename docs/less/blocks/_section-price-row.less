@@ -1,0 +1,96 @@
+.section-price-row {
+    display: flex;
+    justify-content: center;
+}
+.section-price__block {
+    width: 303px;
+    padding: 38px 0;
+    margin-right: 30px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #ffffff;
+}
+.section-price__block:last-child {
+    margin-right: 0;
+}
+.price-block__hover {
+    transition: background 0.3s ease-in;
+    &:hover {
+        .btn-select {
+            background-color: #ffffff;
+            color: #666666;
+        }
+        background-color: #3250f7;
+        box-shadow: 0 0 25px #ffffffd9;
+    }
+}
+.price-block_top {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 29px;
+}
+.block-items {
+    margin-top: 33px;
+    padding-left: 0;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+.block-items li {
+    margin-bottom: 20px;
+}
+.block-items li:last-child {   
+    margin-bottom: 0; 
+    margin-bottom: 36px;
+}
+.section-price_title {
+    margin-bottom: 13px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.7;
+
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    color: #b3b3b3;
+
+}
+.section-price_price {
+    margin-bottom: 27px;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 2px;
+}
+.section-price_month {
+    display: inline-block;
+    padding: 5px 11px 6px 18px ;
+    border-radius: 20px;
+    background-color:  rgba(255, 255, 255, 0.1);
+
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    line-height: 1.3;
+}
+.for-GB {
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.btn-select {
+    padding: 17px 31px 18px 31px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.008);
+    cursor: pointer;
+
+    transition: background 0.3s ease-in;
+
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    font-family: 'Montserrat', sans-serif; 
+}
