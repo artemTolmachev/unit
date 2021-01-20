@@ -2,26 +2,17 @@
     padding: 70px 0 44px;
     border-bottom: 1px solid rgb(189, 189, 189);
     text-align: center;
-
-    &::before {
-        content: "";
-        display: block;
-        width: 102px;
-        height: 102px;
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translate(-50%, -71%) rotate(45deg);
-        background-color: #a4eecb;  
-        }
+    position: relative;
+    z-index: 1;
+    background-color: white;
 
     @media (min-width: 768px) {
-        padding: 113px 0 42px;
+        padding: 62px 0 42px;
         text-align: start;
+        position: unset;
+        z-index: unset;
+        background-color: unset;
         
-        &::before {
-        display: none;
-        }
     }
     @media (min-width: 1200px) {
         padding: 91px 0 70px;
